@@ -97,8 +97,6 @@
         }
     </style>
 
-
-
     <!-- js start -->
     <script src="assets/js/jquery.min.js"></script>
 
@@ -269,11 +267,7 @@
             document.cookie = name + "=" + (value || "") + expires + "; path=/";
         }
     </script>
-    <script type="text/javascript">
-        setInterval(function () {
-            $(".mod-next").triggerHandler("click");
-        }, 2000);
-    </script>
+
 
 
     <!-- js end -->
@@ -284,7 +278,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#home"> <img src="assets/images/logo/logos.png" alt="Project Logo"
-                    class="img-fluid d-block mx-auto project-logo" style="width: 180px; max-width: 180px; margin-top: 60px; margin-bottom: 40px; "/> </a>
+                    class="img-fluid d-block mx-auto project-logo" style="width: 200px; max-width: 200px; margin-top: 40px; margin-bottom: 40px; "/> </a>
             <!--this content fetch from JS-->
             <div class="d-flex">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -359,11 +353,19 @@
                 <!--  Top Section  -->
                 <section id="home">
                     <div class="container-fuild">
-                        <div id="banner-carousel" class="carousel slide d-block" data-bs-ride="carousel">
+                        <div id="banner-carousel" class="carousel slide d-block" data-bs-ride="carousel" data-bs-interval="2000">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#banner-carousel" data-bs-slide-to="0"
                                     class="active"></button>
                                 <button type="button" data-bs-target="#banner-carousel" data-bs-slide-to="1"
+                                    class=""></button>
+                                <button type="button" data-bs-target="#banner-carousel" data-bs-slide-to="2"
+                                    class=""></button>
+                                <button type="button" data-bs-target="#banner-carousel" data-bs-slide-to="3"
+                                    class=""></button>
+                                <button type="button" data-bs-target="#banner-carousel" data-bs-slide-to="4"
+                                    class=""></button>
+                                <button type="button" data-bs-target="#banner-carousel" data-bs-slide-to="5"
                                     class=""></button>
 
 
