@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->addAddress('rock83694@gmail.com');
 
         $mail->isHTML(true);
-        $mail->Subject = 'New Lead NeoLiv Khopoli';
+        $mail->Subject = 'New Lead Sattva Parel';
         $mail->Body = "
             <h2>New Lead Submission</h2>
             <p><strong>Name:</strong> {$name}</p>
