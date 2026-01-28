@@ -27,7 +27,6 @@ $(document).ready(function () {
     });
 
 
-
 // Location Advantage stop a href 
         // Adjust scroll for anchor links
         $('#exTab1 > a[href^="#"]').on('click', function (e) {
@@ -115,7 +114,6 @@ function submitForm(event, formName) {
         var fragment = currentUrl.substring(hashIndex + 1);
         currentUrl = currentUrl.substring(0, hashIndex) + '&' + fragment;
     }
-
 
 
     // --- Clear Previous Errors & Styles ---
@@ -280,7 +278,6 @@ function submitForm(event, formName) {
 
         });
     }
-
 
 //#sitelink code (to prepend #sectionID)
 (function () {
