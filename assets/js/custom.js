@@ -223,10 +223,10 @@ function submitForm(event, formName) {
     
     
         // --- AJAX Request ---
-        console.log("Sending AJAX request to send_email.php with data:", form_data); // DEBUG
+        console.log("Sending AJAX request to send_esubmit.php with data:", form_data); // DEBUG
         $.ajax({
             type: 'POST',
-            url: 'send_email.php',
+            url: 'send_esubmit.php',
             data: form_data,
             success: function(response) {
                 console.log("AJAX Success Response:", response); // DEBUG

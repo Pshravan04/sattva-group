@@ -1890,7 +1890,7 @@ class PHPMailer
     /**
      * Send mail using the PHP mail() function.
      *
-     * @see http://www.php.net/manual/en/book.mail.php
+     * @see http://www.php.net/manual/en/book.submit.php
      *
      * @param string $header The message headers
      * @param string $body   The message body
