@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mobile = htmlspecialchars($_POST['mobile'] ?? '');
 
     // Optional Logging
-    file_put_contents("debug-log.txt", data: "Name: $name | Email: $email | Phone: $mobile\n", FILE_APPEND);
+    file_put_contents("debug-log.txt", "Name: $name | Email: $email | Phone: $mobile\n", FILE_APPEND);
 
     $mail = new PHPMailer(true);
 
@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h2>New Lead Submission</h2>
             <p><strong>Name:</strong> {$name}</p>
             <p><strong>Email:</strong> {$email}</p>
-            <p><strong>Phone:</strong> {$phone}</p>
+            <p><strong>Phone:</strong> {$mobile}</p>
         ";
 
         if ($mail->send()) {
