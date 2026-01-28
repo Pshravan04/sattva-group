@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        
          $mail->addAddress('salesconnect.teambb@gmail.com');
         $mail->addAddress('thegrowthmonks@gmail.com');
-        // $mail->addAddress('rock83694@gmail.com');
+        $mail->addAddress('shravanphutanr@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = 'New Lead Sattva Parel';
